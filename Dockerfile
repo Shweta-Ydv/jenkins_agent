@@ -1,1 +1,1 @@
-FROM mcr.microsoft.com/windows
+FROM node:16-alpine
