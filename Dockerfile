@@ -1,3 +1,1 @@
-FROM node:16-alpine
-
-RUN apk add -U git curl
+FROM mcr.microsoft.com/windows
