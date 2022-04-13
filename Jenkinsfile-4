@@ -1,0 +1,12 @@
+pipeline {
+  agent {
+    docker { image 'mcr.microsoft.com/windows' }
+  }
+  stages {
+    stage('Test') {
+      steps {
+        sh 'docker --version'
+      }
+    }
+  }
+}
