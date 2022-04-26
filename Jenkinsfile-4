@@ -1,6 +1,6 @@
 pipeline {
   agent {
-    docker { image 'mcr.microsoft.com/windows/nanoserver' }
+    label 'jenkins-slave'
   }
   stages {
     stage('Test') {
